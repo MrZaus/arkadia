@@ -394,6 +394,14 @@ function trigger_func_skrypty_ui_special_exits_follow_przecisnij_sie_na_poludnie
     scripts.utils.bind_functional_team_follow(matches[2], "przecisnij sie na poludnie", 15)
 end
 
+function trigger_func_skrypty_ui_special_exits_follow_przecisnij_sie_do_baszty()
+    scripts.utils.bind_functional_team_follow(matches[2], "przecisnij sie do baszty", 15)
+end
+
+function trigger_func_skrypty_ui_special_exits_follow_przecisnij_sie_do_klatki()
+    scripts.utils.bind_functional_team_follow(matches[2], "przecisnij sie do klatki", 15)
+end
+
 function trigger_func_skrypty_ui_special_exits_follow_przeskocz_przepasc()
     scripts.utils.bind_functional_team_follow(matches[2], "przeskocz przepasc", 15)
 end
